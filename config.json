@@ -1,0 +1,22 @@
+{
+  "siteUrl": "https://yourtenant.sharepoint.com/sites/yoursite",
+  "authMechanism": "Interactive",
+  "interactive": {
+    "enabled": true
+  },
+  "webLogin": {
+    "enabled": true
+  },
+  "clientCredentials": {
+    "enabled": true,
+    "clientId": "your-client-id-here",
+    "clientSecret": "your-client-secret-here",
+    "tenantId": "your-tenant-id-here"
+  },
+  "certificateAuth": {
+    "enabled": true,
+    "clientId": "your-client-id-here",
+    "thumbprint": "your-certificate-thumbprint-here",
+    "tenantId": "your-tenant-id-here"
+  }
+}
